@@ -1,0 +1,85 @@
+﻿.cover {
+    background: url(../images/buddy-logo_notext.svg) -400px 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+
+    .cover .row {
+        position: relative;
+        top: 140px;
+    }
+
+    .cover h1 {
+        color: #EC008C;
+    }
+
+
+.sign-up {
+    padding: 100px 0 100px 0;
+}
+
+
+.header-scroll {
+    background-color: #F47B20;
+    background-image: url(/images/scroll-down.png);
+    background-size: cover;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    display: inline-block;
+    position: relative;
+    top: 42px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.informal {
+    font-family: "Happy Monkey";
+}
+
+.facebook {
+    padding-top: 100px;
+}
+
+.like-info {
+    font-size: 12px;
+}
+
+.signup-form {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+.jumbotron-info {
+    padding-top: 80px;
+}
+
+.footer-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px; 
+    background-color: #333; 
+    color: white; 
+    padding-top: 30px;
+}
